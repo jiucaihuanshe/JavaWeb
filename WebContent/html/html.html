@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- GBK中一个中文字符对应2个字节 -->
+<!-- 一个中文字符在UTF8对应3个字节 -->
+<meta charset="UTF-8">
+<title>Html Demo Page</title>
+</head>
+<body>
+	<h2>Html Learn Demo</h2>
+	<h2>Html5 new tag</h2>
+	choose color:
+	<input type="color" id="favcolor" name="favcolor">
+	<button type="button"
+		onclick="alert(document.getElementById('favcolor').value)">OK</button>
+	<p>
+		<input type="number" min="1" max="5" name="quantity">
+	</p>
+
+	<h2>CSS定位</h2>
+
+	<form action="#" method="post">
+		<table border="1px" cellspacing="0" cellpadding="10px" style="width:500px;" align="center">
+			<caption>用户注册</caption>
+			<tr>
+				<td>user name</td>
+				<td><input type="text" name="username"></td>
+			</tr>
+			<tr>
+				<td>password</td>
+				<td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td>user email</td>
+				<td><input type="email" name="usermail"></td>
+			</tr>
+			<tr><td></td><td></td></tr>
+		</table>
+	</form>
+
+</body>
+</html>
